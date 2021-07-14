@@ -11,7 +11,7 @@ def distance(city1: dict, city2: dict):
 def main():
     cities = []
     points = []
-    with open('./data/chn10.txt') as f:
+    with open('./data/att48.txt') as f:
         for line in f.readlines():
             city = line.split(' ')
             cities.append(dict(index=int(city[0]), x=int(city[1]), y=int(city[2])))
